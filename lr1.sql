@@ -1,3 +1,3 @@
 USE world;
-SELECT * FROM city WHERE Name LIKE "C%";
+SELECT * FROM city WHERE Name LIKE "C";
 
