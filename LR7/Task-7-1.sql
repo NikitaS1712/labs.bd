@@ -4,7 +4,7 @@ USE cd;
 DELIMITER $$
 DROP FUNCTION IF EXISTS CalculateRentalCost;
 CREATE FUNCTION CalculateRentalCost(memid INT, facid INT, slots INT)
-RETURNS INT
+RETURNS DECIMAL (5, 2)
 DETERMINISTIC
 BEGIN
 DECLARE Стоимость_аренды INT;
