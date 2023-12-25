@@ -27,4 +27,4 @@ JOIN (
     GROUP BY poster_number, visiting_day
 ) A ON P.idPOS = A.poster_number
 GROUP BY F.titleFIL, a.visiting_day
-ORDER BY max_daily_audience DESC; 
+ORDER BY max_daily_audience DESC;
